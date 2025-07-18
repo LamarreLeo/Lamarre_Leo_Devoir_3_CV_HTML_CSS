@@ -1,3 +1,10 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
 /* FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
 
@@ -25,10 +32,6 @@
   font-display: swap;
 }
 
-.cv-container {
-  font-family: 'Raleway', Arial, sans-serif;
-}
-
 h1,
 h2,
 h3,
@@ -38,3 +41,46 @@ h6 {
   font-family: 'Lato', Arial, sans-serif;
 }
 /* /FONTS */
+
+/* PLACEMENTS & COLORS */
+.cv-container {
+  font-family: 'Raleway', Arial, sans-serif;
+  width: 1160px;
+  margin: auto;
+  color: #333333;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+}
+
+header {
+  height: 240px;
+  background-color: #17abb3;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+}
+
+aside {
+  width: 350px;
+  background-color: #e3e3e3;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  height: 85px;
+  background-color: #17abb3;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+/* /PLACEMENTS & COLORS */
