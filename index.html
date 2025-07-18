@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CV en ligne</title>
+    <meta
+      name="description"
+      content="CV Léo Lamarre - Développeur Web et Web Mobile"
+    />
+    <title>CV Léo Lamarre - Développeur Web et Web Mobile</title>
     <link
       rel="icon"
       type="image/x-icon"
@@ -14,7 +18,67 @@
   <body>
     <div class="cv-container">
       <!-- HEADER -->
-      <header></header>
+      <header>
+        <img
+          id="profile-pic"
+          src="./assets/media/images/blank-profile-picture.svg"
+          alt="Photo de profile temporaire"
+          title="Photo de profile temporaire"
+        />
+
+        <div class="header-content">
+          <h1>Léo Lamarre</h1>
+          <h2>Développeur Web et Web Mobile</h2>
+
+          <div class="header-infos">
+            <a
+              class="header-infos__item"
+              href="mailto:exemple@exemple.com"
+              aria-label="Envoyer un email à exemple@exemple.com"
+            >
+              <img
+                src="./assets/media/icons/email-icon.svg"
+                alt="Icone d'email"
+              />
+              <span>exemple@exemple.com</span>
+            </a>
+
+            <a
+              class="header-infos__item"
+              href="https://maps.google.com/maps?q=Cherbourg-en-Cotentin,France"
+              target="_blank"
+              aria-label="Localiser Cherbourg-en-Cotentin sur Google Maps"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="./assets/media/icons/house-icon.svg"
+                alt="Icone de maison"
+              />
+              <span>Cherbourg-en-cotentin, France</span>
+            </a>
+
+            <a
+              class="header-infos__item"
+              href="tel:0123456789"
+              aria-label="Envoyer un appel à 0123456789"
+            >
+              <img
+                src="./assets/media/icons/phone-icon.svg"
+                alt="Icone de téléphone"
+              />
+              <span>01 23 45 67 89</span>
+            </a>
+
+            <div class="header-infos__item">
+              <img
+                src="./assets/media/icons/car-icon.svg"
+                alt="Icone de voiture"
+              />
+              <span>Permis B</span>
+            </div>
+          </div>
+        </div>
+      </header>
       <!-- /HEADER -->
 
       <div class="content">
