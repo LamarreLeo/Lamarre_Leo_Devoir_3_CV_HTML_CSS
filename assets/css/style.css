@@ -47,6 +47,7 @@ h4,
 h5,
 h6 {
   font-family: 'Lato', Arial, sans-serif;
+  font-weight: normal;
 }
 /* /FONTS */
 
@@ -73,14 +74,14 @@ header {
   justify-content: space-between;
 }
 
-aside {
+.sidebar {
   width: 350px;
   background-color: #e3e3e3;
   display: flex;
   flex-direction: column;
 }
 
-main {
+.content {
   background-color: #ffffff;
   display: flex;
   flex: 1;
