@@ -131,11 +131,14 @@ header h2 {
 }
 
 #profile-pic {
+  margin-left: 100px;
+}
+
+#profile-pic img {
   border-radius: 50%;
   border: #ffffff solid 5px;
   width: 140px;
   height: 140px;
-  margin-left: 100px;
 }
 
 .header-content {
@@ -275,5 +278,20 @@ footer small time {
 /* /FOOTER */
 
 /* EFFECTS */
+.card:hover {
+  background-color: #e3e3e3;
+  border-left: 2px solid #17abb3;
+  padding-left: 5px;
+  transition: background-color 0.1s ease-in-out;
+  transition: border-left 0.1s ease-in-out;
+  transition: padding-left 0.1s ease-in-out;
+}
 
+.social-logo:hover {
+  opacity: 0.5;
+}
+
+#profile-pic:hover {
+  cursor: zoom-in;
+}
 /* /EFFECTS  */
