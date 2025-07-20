@@ -104,6 +104,9 @@ footer {
   color: #ffffff;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
 }
 
 .white {
@@ -247,6 +250,26 @@ header h2 {
 
 .card__date {
   color: #17abb3;
-  ;
 }
 /* /MAIN CONTENT */
+
+/* FOOTER */
+footer img {
+  width: 20px;
+  height: 20px;
+}
+
+#social {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+
+footer small {
+  font-style: italic;
+}
+
+footer small time {
+  font-weight: bold;
+}
+/* /FOOTER */
