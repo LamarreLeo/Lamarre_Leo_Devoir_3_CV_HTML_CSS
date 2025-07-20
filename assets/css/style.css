@@ -1,8 +1,7 @@
-html,
 body {
   margin: 0;
   padding: 0;
-  background-color: #f5f5f5;
+  background-color: #f1f1f1;
 }
 
 * {
@@ -52,6 +51,7 @@ h5,
 h6 {
   font-family: 'Lato', Arial, sans-serif;
   font-weight: normal;
+  color: #17abb3;
 }
 /* /FONTS */
 
@@ -80,7 +80,7 @@ header {
 
 .sidebar {
   width: 350px;
-  background-color: #e3e3e3;
+  background-color: #f5f5f5;
   display: flex;
   flex-direction: column;
 }
@@ -98,6 +98,14 @@ footer {
   color: #ffffff;
   display: flex;
   flex-direction: column;
+}
+
+.white {
+  color: #ffffff;
+}
+
+hr {
+  border: solid 1px #e3e3e3;
 }
 /* /PLACEMENTS & COLORS */
 
