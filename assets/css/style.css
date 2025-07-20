@@ -90,11 +90,12 @@ header {
   color: #17abb3;
 }
 
-.content {
+.main-content {
   background-color: #ffffff;
   display: flex;
   flex: 1;
   flex-direction: column;
+  padding: 30px 50px;
 }
 
 footer {
@@ -207,3 +208,45 @@ header h2 {
   margin-right: 10px;
 }
 /* /SIDEBAR */
+
+/* MAIN CONTENT */
+.main-content section {
+  margin-bottom: 5px;
+}
+
+.main-content h3 {
+  font-size: 24px;
+}
+
+#profile p {
+  margin: 0;
+  text-align: justify;
+  text-indent: 3%;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.card strong {
+  font-family: 'lato', Arial, sans-serif;
+}
+
+.card em {
+  font-size: smaller;
+}
+
+.card p {
+  margin: 0;
+}
+
+.card__date {
+  color: #17abb3;
+  ;
+}
+/* /MAIN CONTENT */
