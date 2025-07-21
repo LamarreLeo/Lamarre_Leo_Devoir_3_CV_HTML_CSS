@@ -106,7 +106,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 5px;
+  gap: 10px;
 }
 
 .white {
@@ -130,21 +130,24 @@ header h2 {
   margin-top: 0;
 }
 
-#profile-pic {
-  margin-left: 100px;
+.header-picture {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  align-items: center;
 }
 
 #profile-pic img {
   border-radius: 50%;
   border: #ffffff solid 5px;
-  width: 140px;
-  height: 140px;
+  width: 150px;
+  height: 150px;
 }
 
 .header-content {
   display: flex;
+  flex: 1;
   flex-direction: column;
-  padding-right: 200px;
   align-items: center;
 }
 
@@ -222,12 +225,17 @@ header h2 {
 
 .main-content h3 {
   font-size: 24px;
+  margin-bottom: 5px;
 }
 
 #profile p {
-  margin: 0;
+  margin-bottom: 0px;
   text-align: justify;
   text-indent: 3%;
+}
+
+#profile p:nth-last-of-type(1) {
+  margin: 0px;
 }
 
 .card {
@@ -237,6 +245,7 @@ header h2 {
   align-items: center;
   height: 50px;
   margin-bottom: 10px;
+  transition: all 0.1s ease-in-out;
 }
 
 .card strong {
@@ -265,6 +274,7 @@ footer img {
 #social {
   display: flex;
   flex-direction: row;
+  margin-top: 10px;
   gap: 25px;
 }
 
@@ -280,11 +290,8 @@ footer small time {
 /* EFFECTS */
 .card:hover {
   background-color: #e3e3e3;
-  border-left: 2px solid #17abb3;
+  border-left: 4px solid #17abb3;
   padding-left: 5px;
-  transition: background-color 0.1s ease-in-out;
-  transition: border-left 0.1s ease-in-out;
-  transition: padding-left 0.1s ease-in-out;
 }
 
 .social-logo:hover {
