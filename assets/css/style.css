@@ -245,6 +245,7 @@ header h2 {
   align-items: center;
   height: 50px;
   margin-bottom: 10px;
+  transition: all 0.1s ease-in-out;
 }
 
 .card strong {
@@ -289,11 +290,8 @@ footer small time {
 /* EFFECTS */
 .card:hover {
   background-color: #e3e3e3;
-  border-left: 2px solid #17abb3;
+  border-left: 4px solid #17abb3;
   padding-left: 5px;
-  transition: background-color 0.1s ease-in-out;
-  transition: border-left 0.1s ease-in-out;
-  transition: padding-left 0.1s ease-in-out;
 }
 
 .social-logo:hover {
