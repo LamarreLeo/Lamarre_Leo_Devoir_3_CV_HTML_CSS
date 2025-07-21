@@ -106,7 +106,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 5px;
+  gap: 10px;
 }
 
 .white {
@@ -273,6 +273,7 @@ footer img {
 #social {
   display: flex;
   flex-direction: row;
+  margin-top: 10px;
   gap: 25px;
 }
 
